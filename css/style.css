@@ -1,0 +1,148 @@
+.bgimg{
+    width: 100%;
+    height: 100%;
+    opacity: 60%;
+}
+.a{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    top: -88%;
+    left: 9%;
+}
+.b{
+    width: 220px;
+    height: 220px;
+    position: relative;
+    top: -109%;
+    left: 23%;
+}
+.c{
+    width: 240px;
+    height: 240px;
+    position: relative;
+    top: -132%;
+    left: 43%;  
+}
+
+.d{
+    width: 240px;
+    height: 240px;
+    position: relative;
+    top: -132%;
+    left: 43%;  
+}
+
+.e{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    top: -184%;
+    left: 71%;  
+}
+
+.f{
+    width: 240px;
+    height: 180px;
+    position: relative;
+    top: -178%;
+    left: 69%;  
+}
+
+.g{
+    width: 240px;
+    height: 180px;
+    position: relative;
+    top: -188%;
+    left: 69%;  
+}
+
+.h{
+    width: 200px;
+    height: 180px;
+    position: relative;
+    top: -190%;
+    left: 9%;  
+}
+
+.i{
+    width: 240px;
+    height: 180px;
+    position: relative;
+    top: -210%;
+    left: 23%;  
+}
+
+.j{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    top: -225%;
+    left: 40%;  
+}
+
+.k{
+    width: 120px;
+    height: 180px;
+    position: relative;
+    top: -250%;
+    left: 53%;  
+}
+
+.l{
+    width: 240px;
+    height: 180px;
+    position: relative;
+    top: -265%;
+    left: 70%;  
+}
+
+.m{
+    width: 240px;
+    height: 180px;
+    position: relative;
+    top: -263%;
+    left: 72%;  
+}
+
+.line1{
+    position:relative;
+    top: -365%;
+    left: 4%;
+    stroke-dasharray: 711;
+    stroke-dashoffset: 711;
+    animation: dash 5s linear alternate infinite;
+}
+
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 711; 
+       
+    }
+    
+
+
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.line2{
+    position:relative;
+    top: -500%;
+    left: 12%;
+}
+
+.date{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.daterotate{
+    position: absolute;
+    top: 92%;
+    left: 55%;
+    rotate: 90deg;
+}
